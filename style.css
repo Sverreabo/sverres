@@ -41,7 +41,11 @@ a:hover {
 	-webkit-border-radius: 70px;
 	border-radius: 70px;
 }
-
+@media screen and (max-width: 950px) {
+	.tilbake {
+		visibility:hidden;
+	}
+}
 .outsidelink {
 	color:rgb(200, 154, 0);
 }
