@@ -11,13 +11,6 @@ div {
 	margin:10px;
 }
 
-code {
-	font-size: 15px;
-	background-color:darkgrey;
-	color:black;
-	padding:0px;
-	font-family:consolas;
-}
 
 a {
 	color:red;
@@ -47,6 +40,9 @@ a:hover {
 	color:rgb(200, 154, 0);
 }
 
+span {
+	color:rgb(200, 55, 200)
+}
 p {
 	font-family: georgia, 'times new roman', serif;
 	margin-left:8%;
