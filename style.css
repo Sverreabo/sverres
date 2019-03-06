@@ -11,6 +11,23 @@ div {
 	margin:10px;
 }
 
+nav {
+	background-color:rgb(0, 200, 200);
+	padding:5px;
+	margin:10px;
+}
+
+nav ul {
+	width:200px;
+	border:2px dotted blue;
+	margin: auto;
+	list-style:none;
+}
+
+nav ul li {
+	position:relative;
+	left:-7.5%;
+}
 
 a {
 	color:red;
@@ -36,12 +53,14 @@ a:hover {
 		visibility:hidden;
 	}
 }
-.outsidelink {
+a.outsidelink {
 	color:rgb(200, 154, 0);
 }
-
+img.fill {
+	width:85%
+}
 span {
-	color:rgb(150, 5, 150)
+	color:rgb(145, 0, 145)
 }
 p {
 	font-family: georgia, 'times new roman', serif;
