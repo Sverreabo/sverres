@@ -46,7 +46,7 @@ a:hover {
 	left:1.5%;
 	-moz-border-radius: 70px;
 	-webkit-border-radius: 70px;
-	border-radius: 70px;
+	border-radius: 15px;
 	}
 @media screen and (max-width: 950px) {
 	.tilbake {
