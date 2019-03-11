@@ -9,6 +9,7 @@ div {
 	background-color:rgb(0, 200, 200);
 	padding:5px;
 	margin:10px;
+	border-radius:2px
 	}
 
 nav {
@@ -65,9 +66,15 @@ img.fill {
 span {
 	color:rgb(145, 0, 145)
 	}
+
+code {
+	font-family:consolas, georgia, 'times new roman', serif;
+	margin-left:8%;
+	margin-right:8%;
+	}
 	
 p {
-	font-family: georgia, 'times new roman', serif;
+	font-family:georgia, 'times new roman', serif;
 	margin-left:8%;
 	margin-right:8%;
 	}

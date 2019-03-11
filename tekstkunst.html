@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Kunst med tekst</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	
+	<body>
+		<h4 class="tilbake"><a href="javascript:history.back()">&lt;Gå tilbake</a></h3>
+		<div>
+			<h2>Kunst med tekst</h2>
+			<input id="inputbox" value="tekst">
+			<br>
+			<button onclick="javascript:printtext();">Lag kunst!</button>
+		</div>
+		<code id="tekst" class=""></code>
+	<script>
+		function printtext() {
+			var input = document.getElementById("inputbox").value;
+			var i;
+			var result = "<br>";
+			
+			for (i = 1; i < input.length + 1; i++) {
+				result += input.substr(0, i) + "<br>"
+			}
+			var i = i - 2;
+			for (i = i; 0 < i; i--) {
+				result += input.substr(0, i) + "<br>"
+			}
+			document.getElementById("tekst").innerHTML = result;
+		}
+	</script>
+	</body>
+</html>
