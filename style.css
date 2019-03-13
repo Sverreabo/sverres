@@ -16,11 +16,13 @@ nav {
 	background-color:rgb(0, 200, 200);
 	padding:5px;
 	margin:10px;
+	border-radius:2px;
 	}
 
 nav ul {
 	width:200px;
-	border:2px dotted blue;
+	border-style:inset;
+	border-color:rgb(0, 100, 130);
 	margin: auto;
 	list-style:none;
 	}
@@ -45,8 +47,8 @@ a:hover {
 	position:fixed;
 	top:0.1%;
 	left:1.5%;
-	-moz-border-radius: 70px;
-	-webkit-border-radius: 70px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
 	border-radius: 15px;
 	}
 @media screen and (max-width: 950px) {
@@ -59,6 +61,10 @@ a.outsidelink {
 	color:rgb(200, 154, 0);
 	}
 	
+img {
+	border:1px solid rgb(200, 230, 230);
+	}
+
 img.fill {
 	width:85%
 	}
